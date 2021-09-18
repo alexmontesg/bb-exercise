@@ -1,16 +1,19 @@
 {
+  "fallback": "I'm afraid I did not understand you. Can you rephrase your question? Or just collect the 7 Dragon Balls and ask Shenron about it.",
+
+  "power_level.base.title": "Over 9000",
+	"power_level.base.subtitle": "Your power level might be over 9000, but have not reached Super Saiyan yet.",
+	"power_level.base.btn.title": "Select this",
+	"power_level.ssj.title": "Super Saiyan",
+	"power_level.ssj.subtitle": "You have defeated Frieza and want to prepare for an Android invasion.",
+	"power_level.ssj.btn.title": "Select this",
+	"power_level.ssj2.title": "Super Saiyan 2",
+	"power_level.ssj2.subtitle": "Your Android friend has just been defeated by a bio android and you are enraged.",
+	"power_level.ssj2.btn.title": "Select this",
+	"power_level.ssj3.title": "Super Saiyan 3",
+	"power_level.ssj3.subtitle": "You are ready to take on Majin Buu",
+	"power_level.ssj3.btn.title": "Select this",
+
 	"welcome.expertise_inquire": "To cater for a better experience. May I ask you what is your current power level?",
-	"welcome.text": "Hello and welcome to the Saiyan Academy. We offer many courses to improve your fighting skills.",
-	"power_level.base.title": "power_level.base.title",
-	"power_level.base.subtitle": "power_level.base.subtitle",
-	"power_level.base.btn.title": "power_level.base.btn.title",
-	"power_level.ssj.title": "power_level.ssj.title",
-	"power_level.ssj.subtitle": "power_level.ssj.subtitle",
-	"power_level.ssj.btn.title": "power_level.ssj.btn.title",
-	"power_level.ssj3.title": "power_level.ssj3.title",
-	"power_level.ssj3.subtitle": "power_level.ssj3.subtitle",
-	"power_level.ssj3.btn.title": "power_level.ssj3.btn.title",
-	"power_level.ssj4.title": "power_level.ssj4.title",
-	"power_level.ssj4.subtitle": "power_level.ssj4.subtitle",
-	"power_level.ssj4.btn.title": "power_level.ssj4.btn.title"
+	"welcome.text": "Hello and welcome to the Saiyan Academy. We offer many courses to improve your fighting skills."
 }

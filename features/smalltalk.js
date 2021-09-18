@@ -10,6 +10,6 @@ module.exports = (controller) => {
   });
 
   controller.hears(intentListener('Default Fallback Intent'), 'message,direct_message', async (bot, message) => {
-    await bot.reply(message, 'uh?');
+    await bot.reply(message, i18n.__('fallback'));
   });
 };
