@@ -1,0 +1,16 @@
+{
+	"welcome.expertise_inquire": "To cater for a better experience. May I ask you what is your current power level?",
+	"welcome.text": "Hello and welcome to the Saiyan Academy. We offer many courses to improve your fighting skills.",
+	"power_level.base.title": "power_level.base.title",
+	"power_level.base.subtitle": "power_level.base.subtitle",
+	"power_level.base.btn.title": "power_level.base.btn.title",
+	"power_level.ssj.title": "power_level.ssj.title",
+	"power_level.ssj.subtitle": "power_level.ssj.subtitle",
+	"power_level.ssj.btn.title": "power_level.ssj.btn.title",
+	"power_level.ssj3.title": "power_level.ssj3.title",
+	"power_level.ssj3.subtitle": "power_level.ssj3.subtitle",
+	"power_level.ssj3.btn.title": "power_level.ssj3.btn.title",
+	"power_level.ssj4.title": "power_level.ssj4.title",
+	"power_level.ssj4.subtitle": "power_level.ssj4.subtitle",
+	"power_level.ssj4.btn.title": "power_level.ssj4.btn.title"
+}
