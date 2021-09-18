@@ -9,6 +9,7 @@ const { FacebookAdapter, FacebookEventTypeMiddleware } = require('botbuilder-ada
 const dialogflow = require('botkit-middleware-dialogflow')({
   keyFilename: './keys/dialogflow_key.json',
 });
+const db = require('./store/db');
 
 // Load process.env values from .env file
 require('dotenv').config();
@@ -33,6 +34,8 @@ const controller = new Botkit({
   webhook_uri: '/api/messages',
   adapter,
 });
+
+controller.addPluginExtension('store', db);
 
 controller.middleware.receive.use(dialogflow.receive);
 
