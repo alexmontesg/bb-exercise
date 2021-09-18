@@ -5,6 +5,9 @@
 const logger = require('winston');
 const { Botkit } = require('botkit');
 const { FacebookAdapter, FacebookEventTypeMiddleware } = require('botbuilder-adapter-facebook');
+const dialogflow = require('botkit-middleware-dialogflow')({
+  keyFilename: './keys/dialogflow_key.json',
+});
 
 // Load process.env values from .env file
 require('dotenv').config();
@@ -27,29 +30,16 @@ adapter.use(new FacebookEventTypeMiddleware());
 
 const controller = new Botkit({
   webhook_uri: '/api/messages',
-  adapter
+  adapter,
 });
+
+controller.middleware.receive.use(dialogflow.receive);
 
 // Once the bot has booted up its internal services, you can use them to do stuff.
 controller.ready(() => {
-
   // load traditional developer-created local custom feature modules
   controller.loadModules(__dirname + '/features');
-
-  /* catch-all that uses the CMS to trigger dialogs */
-  if (controller.plugins.cms) {
-    controller.on('message,direct_message', async (bot, message) => {
-      let results = false;
-      results = await controller.plugins.cms.testTrigger(bot, message);
-      if (results !== false) {
-        // do not continue middleware!
-        return false;
-      }
-    });
-  }
 });
-
-
 
 controller.webserver.get('/', (req, res) => {
   res.send(`This app is running Botkit ${controller.version}.`);
