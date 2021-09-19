@@ -35,6 +35,7 @@
 	"topics.title": "What skill do you want to improve?",
 
 	"voucher": "Use the disccount code {{ code }} just for you if you book within 24 hours via our webpage.",
+	"voucher.reminder": "Just a kind reminder that  you can enjoy a disccount using the code {{ code }} if you book now.",
 
 	"welcome.expertise_inquire": "To cater for a better experience. May I ask you what is your current power level?",
 	"welcome.text": "Hello and welcome to the Saiyan Academy. We offer many courses to improve your fighting skills."

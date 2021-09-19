@@ -20,6 +20,10 @@ module.exports = (db) => ({
       db.write();
     }
   },
+  getUsers: () => {
+    const users = db.get('users');
+    return users.value();
+  },
   getFromState: (userId, variable) => {
     const users = db.get('users');
     let user = users.find({ id: userId }).value();
