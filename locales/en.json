@@ -1,7 +1,21 @@
 {
-  "fallback": "I'm afraid I did not understand you. Can you rephrase your question? Or just collect the 7 Dragon Balls and ask Shenron about it.",
+	"course.base.blasts": "Kamehameha basics",
+	"course.base.evasion": "Afterimage. Tips and tricks",
+	"course.base.strength": "Watch the Full Moon and Transform",
+	"course.recommendation": "We've found a course just for you. We recommend you taking: \"{{ course }}\"",
+	"course.ssj.blasts": "Galick Gun for Dummies",
+	"course.ssj.evasion": "Introduction to Shunkan Ido",
+	"course.ssj.strength": "Weighted Clothes. A Complete Guide",
+	"course.ssj2.blasts": "Big Bang Attack 101",
+	"course.ssj2.evasion": "Mastering the Shunkan Ido",
+	"course.ssj2.strength": "Training in a Gravity Chamber",
+	"course.ssj3.blasts": "The Perfect Genki-dama",
+	"course.ssj3.evasion": "Develop your Ultra Instinct",
+	"course.ssj3.strength": "Becoming a Saiyan God",
 
-  "power_level.base.title": "Over 9000",
+	"fallback": "I'm afraid I did not understand you. Can you rephrase your question? Or just collect the 7 Dragon Balls and ask Shenron about it.",
+
+	"power_level.base.title": "Over 9000",
 	"power_level.base.subtitle": "Your power level might be over 9000, but have not reached Super Saiyan yet.",
 	"power_level.base.btn.title": "Select this",
 	"power_level.ssj.title": "Super Saiyan",
@@ -13,6 +27,14 @@
 	"power_level.ssj3.title": "Super Saiyan 3",
 	"power_level.ssj3.subtitle": "You are ready to take on Majin Buu",
 	"power_level.ssj3.btn.title": "Select this",
+
+	"topics.blasts.btn.title": "Ki Blasts",
+	"topics.evasion.btn.title": "Evading attacks",
+	"topics.stamina.btn.title": "Stamina",
+	"topics.strength.btn.title": "Strength",
+	"topics.title": "What skill do you want to improve?",
+
+	"voucher": "Use the disccount code {{ code }} just for you if you book within 24 hours via our webpage.",
 
 	"welcome.expertise_inquire": "To cater for a better experience. May I ask you what is your current power level?",
 	"welcome.text": "Hello and welcome to the Saiyan Academy. We offer many courses to improve your fighting skills."

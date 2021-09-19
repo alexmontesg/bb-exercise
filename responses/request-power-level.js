@@ -1,11 +1,12 @@
 const i18n = require('i18n');
 
-const levels = ['base', 'ssj', 'ssj2', 'ssj3'];
+const { LEVELS } = require('../variables');
+
 const attachment = {
   type: 'template',
   payload: {
     template_type: 'generic',
-    elements: levels.map(l => ({
+    elements: LEVELS.map(l => ({
       title: i18n.__(`power_level.${l}.title`),
       subtitle: i18n.__(`power_level.${l}.subtitle`),
       buttons: [
