@@ -1,10 +1,14 @@
-# Botkit Starter Kit
+# BB Exercise
 
-This is a Botkit starter kit for facebook, created with the [Yeoman generator](https://github.com/howdyai/botkit/tree/master/packages/generator-botkit#readme).
+This is a small POC bot for a saiyan academy that offers courses to become a better saiyan.
 
-To complete the configuration of this bot, make sure to update the included `.env` file with your platform tokens and credentials.
+# Installation
+1. Create a facebook app and page.
+2. Add these environment variables to the `.env` file: `FACEBOOK_APPID`, `FACEBOOK_APP_SECRET`, `FACEBOOK_ACCESS_TOKEN`, `FACEBOOK_VERIFY_TOKEN`.
+3. Add the Dialogflow key on `keys/dialogflow_key.json`.
+4. Run `node bot.js`
 
-[Botkit Docs](https://botkit.ai/docs/v4)
+# Testing phrases
+Saying 'hi' or any other greeting to the bot will run a structured flow, that asks questions to the user to fill all the information required and recommend a course.
 
-This bot is powered by [a folder full of modules](https://botkit.ai/docs/v4/core.html#organize-your-bot-code). 
-Edit the samples, and add your own in the [features/](features/) folder.
+Alternatively, a course can be recommended directly if the user mentions one or both variables required in a single sentence. For instance: 'I am a super saiyan and want to improve my strength'
